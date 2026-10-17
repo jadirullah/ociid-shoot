@@ -1,0 +1,19 @@
+[Desktop Entry]
+Type=Application
+Name=Ociid Shot
+GenericName=Screenshot
+Comment=Screenshot Wayland/COSMIC: pilih area, anotasi, copy gambar atau file
+Exec=/home/jadir/.local/bin/ociid-shot
+Icon=accessories-screenshot
+Terminal=false
+Categories=Graphics;
+Keywords=screenshot;capture;snapshot;tangkapan;layar;
+Actions=full-image;full-file;
+
+[Desktop Action full-image]
+Name=Seluruh layar + copy gambar
+Exec=/home/jadir/.local/bin/ociid-shot --full
+
+[Desktop Action full-file]
+Name=Seluruh layar + copy file
+Exec=/home/jadir/.local/bin/ociid-shot --full --file
